@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=0.1">
+        <title>BigLittleLies</title>
+
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+
+    <body>
+        <nav class="navbar">
+        <h1 class="logo">Big Little Lies</h1>
+         <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Noticias</li>
+            <li><a href="#"></a>Nominaciones</li>
+            <li><a href="#"></a>Reparto</li>
+            <li><a href="#"></a>Estética</li>
+            <li class="ctn"><a href="#"></a>Contacto</li>
+        </ul>
+        <img src="./site/menu-btn.png" alt="" class="menu-btn">
+        </nav>
+
+        <header>
+            <div class="header-content">
+                <h2>"Appearances can be deceiving"</h2>
+                <div class="line"></div>
+                <h1>Explora el universo de Big Little Lies</h1>
+                <a href="#" class="ctn">Saber más</a>
+            </div>
+        </header>
+
+        <section class="events">
+            <div class="title">
+                <h1>Noticias de este Mes</h1>
+                <div class="line"></div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <img src="./img/7.jpg" alt="">  
+                    <h4>HBO presentó un clip con nuevas imágenes de Game of Thrones, Big Little Lies 2 y Watchmen</h4>
+                    <p>En una jornada dominada por los premios Oscar, HBO no quiso perder protagonismo y lanzó un extenso avance con lo mejor de su programación para el 2019. En un video que dura poco menos de dos minutos, el prestigioso canal premium compactó muchos de los estrenos y de los regresos más esperados del año, haciendo especial hincapié en los títulos que más expectativas generan entre los televidentes.</p>
+                    <a href="#" class="ctn">Saber más</a>   
+                </div>
+
+                <div class="col">
+                    <img src="./img/8.jpg" alt="">  
+                    <h4>Nicole Kidman, Reese Witherspoon y Laura Dern en la premiere de la segunda temporada de Big Little Lies</h4>
+                    <p>El regreso de las "cinco de Monterey" como se llama en la ficción escrita por David E. Kelley a las cinco madres del colegio primario de la exclusiva localidad californiana, unidas en la primera temporada por una tragedia devenida homicidio – será el próximo domingo 9 de junio, por HBO , pero ayer se reunieron en Nueva York para la premiere del primer capítulo.</p>
+                    <a href="#" class="ctn">Saber más</a>   
+                </div>
+            </div>
+        </section>
+
+        <section class="tours">
+            <div class="row">
+                <div class="col content-col"></div>
+                <h1>Llega el final de Big Little Lies 2: todo lo que pasó hasta ahora</h1>
+                <div class="line"></div>
+                <p>La incorporación de Meryl Streep renovó las expectativas por el drama, especialmente al saber quién era el personaje que ingresaba para desestabilizar el microcosmos de "las cinco de Monterey": Mary Louise Wright, la madre de Perry. Big Little Lies no esconde su as bajo la manga por mucho tiempo, ya que Streep aparece al comienzo del primer episodio con una conducta que se convertiría en su modus operandi: estar alerta a los movimientos de Celeste y sus amigas, escuchar cada palabra que dicen sus nietos e indagar sobre ellas, y estar al acecho para demostrar en la Justicia que Celeste no está sana como para criar a sus hijos.</p>
+                <a href="#" class="ctn">Saber más</a>
+            </div>
+
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./img/1.jpg" alt="">
+                    <img src="./img/3.jpg" alt="">
+                    <img src="./img/5.jpg" alt="">
+                    <img src="./img/6.jpg" alt="">
+                </div>
+            </div>
+
+        </section>
+
+         <section class="footer">
+            <p>Términos y condiciones</p>
+            <p>Políticas de privacidad</p>
+         </section>
+
+        <script>
+            const menuBtn = document.querySelector('.menu-btn')
+            const navlinks = document.querySelector('.nav-links')
+
+            menuBtn.addEventListener('click',()=> {
+                navlinks.classList.toggle('mobile-menu')
+            })
+        </script>
+        
+    </body>
+</html>
